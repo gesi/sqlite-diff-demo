@@ -1,0 +1,4 @@
+# configure a diff driver for sqlite that uses the .dump command
+# from the sqlite3 cli to convert the database file into a text format
+[diff "sqlite"]
+textconv = sh -c 'sqlite3 $0 .dump'

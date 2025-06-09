@@ -1,0 +1,2 @@
+# use the sqlite diff driver in .gitconfig for sqlite3 files
+*.sqlite3 diff=sqlite
